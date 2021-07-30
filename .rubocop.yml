@@ -30,3 +30,11 @@ Metrics/BlockLength:
 RSpec/NestedGroups:
   Exclude:
     - 'spec/**/*'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'app/controllers/graphql_controller.rb'
+
+Naming/MethodParameterName:
+  Exclude:
+    - 'app/controllers/graphql_controller.rb'
